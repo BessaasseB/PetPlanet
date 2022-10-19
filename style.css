@@ -1,3 +1,7 @@
+:root{
+  --blue: #6495ed;
+}
+
 html{
     box-sizing: border-box;
   }
@@ -9,17 +13,133 @@ html{
   body{
     padding: 0px;
     margin: 0px;
-    height: 3000px;
   }
 
 header{
-    background-color: blue;
+    background-color: var(--blue);
     height: 100px;
-    width: auto;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 102px;
 }
 .backToTop{
     background-color: red;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    display: none;
+}
+.headerDiv{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.logoLink{
+  height: 80px;
+}
+.logo{
+  height: 80px;
+}
+
+.topBtns{
+  display: flex;
+  justify-content: space-around;
+}
+.topBtn{
+  background-color: var(--blue);
+  border: none;
+  cursor: pointer;
+  margin: 0 1.2rem;
+}
+i{
+  font-size: 2rem;
+}
+nav{
+  background-color: var(--blue);
+}
+.links{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.links li:hover{
+  background-color: blue;
+}
+.links li{
+  text-align: center;
+  width: 150px;
+  font-size: 1.4rem;
+}
+.navLinks{
+  text-decoration: none;
+  color: black;
+}
+
+/*center image*/
+
+.centerImg img{
+  display: block;
+  height: 250px;
+  width: 80%;
+  margin: 50px auto 100px;
+  border-radius: 10px;
+}
+
+/*Product section*/
+
+.productSection{
+  height: 380px;
+  padding: 0 30px;
+}
+.productSection h1{
+  font-size: 1.7rem;
+}
+.products{
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.product{
+  text-decoration: none;
+  text-align: center;
+  border: solid rgb(92, 88, 88) 1px;
+  border-radius: 8px;
+  height: 300px;
+  width: 210px;
+  overflow: hidden;
+}
+.product img{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 150px;
+  width: 100px;
+}
+.description{
+  font-size: 1rem;
+  width: 130px;
+  height: 40px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+hr{
+  width: 97%;
+}
+
+/*footer*/
+footer{
+  background-color: var(--blue);
+  height: 100px;
+}
+.dedic{
+  text-align: center;
 }
