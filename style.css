@@ -1,7 +1,10 @@
 :root{
   --blue: #645394;
 }
-
+a{
+  text-decoration: none;
+  color: black;
+}
 html{
     box-sizing: border-box;
   }
@@ -36,7 +39,7 @@ header{
     display: none;
 }*/
 .headerDiv{
-  padding: 0 140px;
+  padding: 0 120px;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -56,7 +59,7 @@ header{
   justify-content: center;
 }
 .searchTerm{
-  width: 800px;
+  width: 650px;
   height: 32px;
   border: none;
   background-color: rgb(243, 243, 243);
@@ -164,8 +167,56 @@ hr{
 /*footer*/
 footer{
   background-color: var(--blue);
-  height: 100px;
 }
 .dedic{
   text-align: center;
+}
+
+.carrinho{
+  color: antiquewhite;
+  padding: 50px 100px;
+}
+.fav{
+  color: antiquewhite;
+  padding: 50px 100px;
+}
+.carrinho h1{
+  color: cornflowerblue;
+  font-size: 2.6rem;
+}
+.fav h1{
+  color: cornflowerblue;
+  font-size: 2.6rem;
+}
+.vazio{
+  font-size: 1.3rem;
+}
+.carrinho a{
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+.fav a{
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+.casoDivergencia{
+  padding-top: 100px;
+  text-align: center;
+  font-weight: 900;
+}
+
+/*Profile*/
+.content{
+  color: antiquewhite;
+
+}
+.contentHolder{
+  display: flex;
+
+}
+.mainContent{
+  max-width: 500px;
+  height: 100px;
+  background-color: var(--blue);
+  margin: 0 100px;
 }
