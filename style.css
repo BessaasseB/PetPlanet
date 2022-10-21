@@ -456,3 +456,49 @@ footer{
   width: 100%;
   background-color: black;
 }
+/*dog products*/
+.containerProdutos{
+  background-color: #524479;
+  width: 95%;
+  margin: 30px auto;
+  display: flex;
+}
+.filtros{
+  width: 500px;
+  padding: 30px 10px;
+  color: antiquewhite;
+}
+.filtros h2{
+  font-size: 1.3rem;
+  color: cornflowerblue;
+}
+.categ{
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 27px;
+}
+.categ li:hover{
+  cursor: pointer;
+}
+.produtosTodos{
+  padding: 0 50px 0 30px;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.descrpt{
+  color: antiquewhite;
+  margin-bottom: 50px;
+}
+.produtosTodos h2{
+  font-size: 1.8rem;
+  color: cornflowerblue;
+}
+.resultProdutos{
+  display: flex;
+  flex-wrap: wrap;
+}
+.dogPage{
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
