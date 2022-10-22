@@ -585,3 +585,34 @@ footer{
   border: 2px solid black;
  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 12px;*/
 }
+
+/*Mapa*/
+
+.psLocationHolder{
+  width: 80%;
+  margin: 10px auto;
+  background-color: #2e2150;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.psContent{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 50px;
+  color: antiquewhite;
+}
+.psContent h2{
+  color: cornflowerblue;
+}
+.map img{
+  border-radius: 10px;
+  width: 130%;
+  border: 2px solid darkmagenta;
+}
+
+.psLocationHolder h1{
+  color: cornflowerblue;
+  font-size: 2.5rem;
+  text-align: center;
+}
