@@ -16,8 +16,16 @@ html{
   body{
     padding: 0px;
     margin: 0px;
-    background-image: url(images/5509862.jpg) ;
+    background-color: #7b66b4;
+    font-family: 'Roboto', sans-serif;
   }
+
+h1, h2, h3, h4{
+  color: cornflowerblue;
+}
+p{
+  color: antiquewhite;
+}
 
 header{
     background-color: var(--blue);
@@ -96,30 +104,36 @@ nav{
 .links{
   margin: auto;
   width: 1340px;
+  height: 40px;
   padding: 0;
   margin: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   list-style-type: none;
 }
 .links li:hover{
-  background-color: blue;
+  background-color: #2e2150; 
 }
 .links li{
   text-align: center;
-  width: 150px;
+  width: 180px;
   font-size: 1.4rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 0 10px;
 }
 .navLinks{
   text-decoration: none;
   color: black;
+  width: 100%;
 }
+
 
 /*center image*/
 
 .centerImg img{
   display: block;
-  height: 250px;
+
   width: 80%;
   margin: 50px auto 100px;
   border-radius: 10px;
@@ -142,18 +156,17 @@ nav{
 .product{
   text-decoration: none;
   text-align: center;
-  border: solid rgb(92, 88, 88) 1px;
+  border: solid rgb(158, 158, 158) 2px;
   border-radius: 8px;
   height: 300px;
   width: 210px;
   overflow: hidden;
-  background-color: var(--blue);
 }
 .product img{
   margin-top: 20px;
   margin-bottom: 10px;
   height: 150px;
-  width: 100px;
+  width: 110px;
 }
 .description{
   font-size: 1rem;
@@ -601,6 +614,7 @@ footer{
   align-items: center;
   padding: 10px 50px;
   color: antiquewhite;
+  margin-bottom: 40px;
 }
 .psContent h2{
   color: cornflowerblue;
@@ -614,5 +628,33 @@ footer{
 .psLocationHolder h1{
   color: cornflowerblue;
   font-size: 2.5rem;
+  text-align: center;
+}
+
+/*services*/
+
+.servicesContainer{
+  width: 90%;
+  margin: 20px auto;
+  background-color: #433861;
+  padding: 15px;
+  border-radius: 10px;
+  border: 5px solid #2b243f;
+}
+.servicesContainer img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 4px solid #2b243f;
+  cursor: pointer;
+}
+.servicesContainer img:hover{
+  border: 8px solid #2b243f;
+}
+.servicos{
+  display: flex;
+  justify-content: space-around;
+}
+.servicoContent{
   text-align: center;
 }
