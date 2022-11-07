@@ -127,7 +127,7 @@ nav{
 .links li{
   text-align: center;
   width: 180px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   padding: 0 10px;
@@ -512,6 +512,7 @@ footer{
 }
 .categ li:hover{
   cursor: pointer;
+  color: var(--purple2)
 }
 .produtosTodos{
   padding: 0 50px 0 30px;
