@@ -512,7 +512,6 @@ footer{
 }
 .categ li:hover{
   cursor: pointer;
-  color: var(--purple2)
 }
 .produtosTodos{
   padding: 0 50px 0 30px;
